@@ -9,6 +9,7 @@ abstract class Routes {
   static const MAIN = _Paths.MAIN;
   static const HOME_INDEX = _Paths.HOME_INDEX;
   static const SETTING = _Paths.SETTING;
+  static const POST_DETAIL = _Paths.POST_DETAIL;
 }
 
 abstract class _Paths {
@@ -17,4 +18,5 @@ abstract class _Paths {
   static const MAIN = '/main';
   static const HOME_INDEX = '/home-index';
   static const SETTING = '/setting';
+  static const POST_DETAIL = '/post-detail';
 }

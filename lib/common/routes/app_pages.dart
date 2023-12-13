@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../../pages/post/post_detail/post_detail_view.dart';
+import '../../pages/system/main/main_binding.dart';
 import '../../pages/system/main/main_view.dart';
 import '../../pages/system/setting/setting_view.dart';
 
@@ -15,11 +17,10 @@ class AppPages {
     GetPage(
       name: _Paths.MAIN,
       page: () => const MainView(),
+      binding: MainBinding(),
     ),
     //Setting
-    GetPage(
-      name: _Paths.SETTING,
-      page: () => const SettingView(),
-    ),
+    GetPage(name: _Paths.SETTING, page: () => const SettingView()),
+    GetPage(name: _Paths.POST_DETAIL, page: () => const PostDetailView()),
   ];
 }
