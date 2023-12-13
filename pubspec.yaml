@@ -10,6 +10,8 @@ dependencies:
   get: 4.6.6
   flutter: 
     sdk: flutter
+  webview_flutter: ^4.4.2
+  shared_preferences: ^2.2.2
 
 dev_dependencies: 
   flutter_lints: ^2.0.0
